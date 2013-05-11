@@ -18,7 +18,11 @@
                  [ch.qos.logback/logback-classic "1.0.7"]
                  [org.slf4j/jul-to-slf4j "1.7.2"]
                  [org.slf4j/jcl-over-slf4j "1.7.2"]
-                 [org.slf4j/log4j-over-slf4j "1.7.2"]]
+                 [org.slf4j/log4j-over-slf4j "1.7.2"]
+
+                 ;; Scraper Libraries
+                 [clj-http "0.6.3"]]
+
   :plugins [
             [lein-midje "3.0-alpha4"]
             ]

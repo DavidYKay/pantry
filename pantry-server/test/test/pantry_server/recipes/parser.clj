@@ -78,3 +78,6 @@
                                            :ingredient "mushroom soup"}
 
   )
+
+(fact "addition should work"
+  (+ 1 1) => 2)

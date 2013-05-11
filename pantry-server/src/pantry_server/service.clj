@@ -11,7 +11,7 @@
 
 (defn home-page
   [request]
-  (ring-resp/response "Hello my man!"))
+  (ring-resp/response "Hello World!"))
 
 (defroutes routes
   [[["/" {:get home-page}
