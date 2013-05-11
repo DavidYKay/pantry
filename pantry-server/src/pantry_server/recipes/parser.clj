@@ -1,4 +1,4 @@
-(ns pantry-server.util.conversions
+(ns pantry-server.recipes.parser
   (:refer-clojure :exclude [char])
   (:use [the.parsatron])
 

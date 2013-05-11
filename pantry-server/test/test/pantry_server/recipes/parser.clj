@@ -1,12 +1,11 @@
-(ns test.pantry-server.util.conversions
-  (:use [pantry-server.util.conversions]
+(ns test.pantry-server.recipes.parser
+  (:use [pantry-server.recipes.parser]
         [midje.sweet]))
 
 (fact
   (+ 1 1) => 2
   (+ 1 2) => 3
   )
-
 
 (unfinished
   )
