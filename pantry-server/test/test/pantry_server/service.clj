@@ -1,4 +1,4 @@
-(ns pantry-server.service-test
+(ns test.pantry-server.service
   (:require [clojure.test :refer :all]
             [io.pedestal.service.test :refer :all]
             [io.pedestal.service.http :as bootstrap]
